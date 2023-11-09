@@ -20,13 +20,13 @@ int main()
             if (x == y)
             {
                 commonChars += x;
-                break; 
+                break;
+            }
         }
     }
 
     int length = commonChars.length();
     cout << "Number of common characters: " << length << endl;
-
 
     return 0;
 }
